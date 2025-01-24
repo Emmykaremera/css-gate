@@ -125,9 +125,6 @@
 }
 
 
-
-
-
 .travel{
     text-align: center;
     margin: 40px;
@@ -187,8 +184,6 @@
 }
 
 
-
-
 .image{
     position: absolute;
 }
@@ -211,24 +206,27 @@
     
 }
 a{
-    
     text-decoration: none;
-    
 }
+
 li{
     list-style: none;
     padding-bottom: 15px;
     
 }
+
 .footer-column{
     padding-left: 200px;
 
 }
+
+
 .footer-bottom{
     padding-left: 100px;
     width: 2000px;
     height: 1px;
 }
+
 .Popular-travel{
     padding-bottom: 50px;
 }
