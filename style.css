@@ -1,0 +1,92 @@
+#First-page {
+    margin: 0;
+    font-family: Arial;
+}
+
+#headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071c2;
+}
+
+#navigation {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#lsit{
+    text-decoration: none;
+    color: black;
+    font-size: 14px; 
+}
+
+.book{
+    background: url('image.png') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.book-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+#inputs{
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+}
+#bttn{
+    background-color: #0071c2;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;  
+}
+#accommodations{
+    display: flex;
+    gap: 30px;
+    
+}
+#accommodation{
+    border: 1px solid black;
+    border-radius: 5px;
+    border-top-right-radius: 10px;
+    width: 400px;
+}
+#accommodations #accommo img{
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 5;
+}
